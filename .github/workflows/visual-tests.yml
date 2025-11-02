@@ -37,7 +37,7 @@ jobs:
       
       - name: Upload HTML report
         if: failure()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: backstop-report
           path: test/visual/html_report/
@@ -45,7 +45,7 @@ jobs:
       
       - name: Upload CI report
         if: failure()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: backstop-ci-report
           path: test/visual/ci_report/
