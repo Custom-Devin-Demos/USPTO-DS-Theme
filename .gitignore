@@ -4,3 +4,8 @@
 assets/css/*.css.map
 /package-lock.json
 debug.log
+
+# Backstop test output
+test/visual/test/
+test/visual/html_report/
+test/visual/ci_report/
